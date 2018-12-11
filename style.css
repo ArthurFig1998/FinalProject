@@ -79,9 +79,9 @@ a {
       background-attachment: fixed;
       grid-column: 6/7;
       grid-row: 3/5;
-      -webkit-animation: spin 4s ease-out;
-      -moz-animation: spin 4s ease-out;
-      animation: spin 4s ease-out; } }
+      -webkit-animation: spin 1s ease-out;
+      -moz-animation: spin 1s ease-out;
+      animation: spin 1s ease-out; } }
 
 .summary {
   font-style: italic;
