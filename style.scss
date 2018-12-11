@@ -149,7 +149,7 @@ a {
                 display: inline-block;
                 position: absolute;
                 z-index: 0;
-                top: -100px;
+                top: -200px;
                 left: -600px;
                 animation: slide-in-right 3s;
                 transition: all 3s;
@@ -180,6 +180,7 @@ a {
 
 .benefits {
     display: grid;
+    z-index: 100;
     @include breakpoint(large) {
         position: relative;
         grid-row: 3/4;

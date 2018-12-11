@@ -136,7 +136,7 @@ a {
         display: inline-block;
         position: absolute;
         z-index: 0;
-        top: -100px;
+        top: -200px;
         left: -600px;
         animation: slide-in-right 3s;
         transition: all 3s;
@@ -161,7 +161,8 @@ a {
         transition-timing-function: ease-out; } }
 
 .benefits {
-  display: grid; }
+  display: grid;
+  z-index: 100; }
   @media (min-width: 50em) {
     .benefits {
       position: relative;
