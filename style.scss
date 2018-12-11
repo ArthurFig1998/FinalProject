@@ -230,16 +230,13 @@ footer {
         grid-template-columns: 25% 25% 25% 25%;
         position: relative;
         &::after {
-            content: url('');
+            content: url('assets/astroguy.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             display: inline-block;
             position: absolute;
             top: 100px;
             right: 0;
-            height: 75%;
-            width: 45%;
-            border: 1px solid;
         }
     }
 }
