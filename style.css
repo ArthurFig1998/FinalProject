@@ -134,6 +134,8 @@ a {
         background-attachment: fixed;
         display: inline-block;
         position: absolute;
+        z-index: 0;
+        top: -100px;
         left: -600px;
         animation: slide-in-right 3s;
         transition: all 3s;
