@@ -62,19 +62,15 @@ a {
         transition-timing-function: ease-out;
         &::after {
             display: inline-block;
-            border: 1px solid;
-            border-radius: 40%;
-            width: 250px;
-            height: 250px;
-            content: '';
+            content: url('assets/sun-planets72-01.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100px 100px;
             grid-column: 6/7;
             grid-row: 3/5;
-            -webkit-animation: spin 4s linear infinite;
-            -moz-animation: spin 4s linear infinite;
-            animation: spin 4s linear infinite;
+            -webkit-animation: spin 10s linear infinite;
+            -moz-animation: spin 10s linear infinite;
+            animation: spin 10s linear infinite;
             transform-origin: center;
             
         }
