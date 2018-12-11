@@ -141,6 +141,20 @@ a {
         position: relative;
         grid-row: 1/2;
         grid-column: 2/3;
+            &::before {
+                content: url('');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                display: inline-block;
+                position: absolute;
+                top: 30px;
+                left: -500px;
+                height: 75%;
+                width: 45%;
+                border: 1px solid;
+                animation: slide-in-right 3s;
+                transition: all 3s;
+                transition-timing-function: ease-out;
     }
 }
 
@@ -174,26 +188,20 @@ a {
         position: relative;
         grid-row: 3/4;
         grid-column: 2/3;
-    }
-}
-
-.explanation, .benefits {
-    @include breakpoint(large) {
-        &::before {
-            content: url('');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            display: inline-block;
-            position: absolute;
-            top: 30px;
-            left: -500px;
-            height: 75%;
-            width: 45%;
-            border: 1px solid;
-            animation: slide-in-right 3s;
-            transition: all 3s;
-            transition-timing-function: ease-out;
-        }
+            &::before {
+                content: url('');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                display: inline-block;
+                position: absolute;
+                top: 30px;
+                left: -500px;
+                height: 75%;
+                width: 45%;
+                border: 1px solid;
+                animation: slide-in-right 3s;
+                transition: all 3s;
+                transition-timing-function: ease-out;
     }
 }
 
