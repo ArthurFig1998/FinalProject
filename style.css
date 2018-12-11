@@ -11,12 +11,12 @@
     transform: rotate(360deg); } }
 @keyframes slide-in-right {
   0% {
-    left: -10000px; }
+    left: -2000px; }
   100% {
     left: -500px; } }
 @keyframes slide-in-left {
   0% {
-    right: -10000px; }
+    right: -2000px; }
   100% {
     right: -500px; } }
 body {
