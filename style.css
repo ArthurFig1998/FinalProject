@@ -114,7 +114,12 @@ a {
       grid-template-columns: repeat(2, auto); } }
 
 .explanation {
-  display: grid; }
+  display: grid;
+  background-image: url("assets/astroguy.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: 400px; }
   @media (min-width: 50em) {
     .explanation {
       position: relative;
@@ -122,8 +127,6 @@ a {
       grid-column: 2/3; }
       .explanation::before {
         content: url("assets/astroguy.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         display: inline-block;
         position: absolute;
         z-index: 0;
@@ -134,7 +137,13 @@ a {
 
 .participation {
   display: grid;
-  z-index: 100; }
+  z-index: 100;
+  background-image: url("assets/sun-planets72-03.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: 400px; }
   @media (min-width: 50em) {
     .participation {
       position: relative;
@@ -143,8 +152,6 @@ a {
       .participation::before {
         content: url("assets/sun-planets72-03.png");
         z-index: 0;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         display: inline-block;
         position: absolute;
         right: -600px;
@@ -154,7 +161,13 @@ a {
 
 .benefits {
   display: grid;
-  z-index: 100; }
+  z-index: 100;
+  background-image: url("assets/sun-planets72-02.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: 400px; }
   @media (min-width: 50em) {
     .benefits {
       position: relative;
@@ -192,15 +205,19 @@ a {
 .wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: auto auto; }
+  grid-template-rows: auto auto;
+  background-image: url("assets/astronautplanet.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: 400px; }
   @media (min-width: 50em) {
     .wrapper {
       grid-template-columns: 25% 25% 25% 25%;
       position: relative; }
       .wrapper::after {
         content: url("assets/astronautplanet.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         display: inline-block;
         position: absolute;
         top: -100px;
