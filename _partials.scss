@@ -6,26 +6,9 @@
     }
 }
 
-@keyframes zoom-in {
-    0%{ transform: scale(.3); }
-    100%{ transform: scale(1); }
-}
-
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@keyframes spin {
-    0% { opacity: 0; }
-    100% { opacity: 1;}
+@keyframes fade-in {
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
 }
 
 @keyframes slide-in-right {
@@ -36,4 +19,9 @@
 @keyframes slide-in-left {
     0% { right: -2000px; }
     100% { right: -600px; }
+}
+
+@keyframes slide-in-up {
+    0%{ background-position-y: 1000px; }
+    100% { background-position-y: 100px; }
 }
