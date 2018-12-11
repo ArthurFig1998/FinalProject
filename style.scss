@@ -58,9 +58,8 @@ a {
         grid-template-rows: repeat(7, auto);
         grid-template-columns: repeat(7, auto);
         & header, & .summary {
-            transform: scale(1.3);
-            transform: translateX(200px);
-            animation: zoom-in 2s ease-out;
+            transform: scale(1);
+            animation: zoom-in 1s ease-out;
         }
         &::after {
             display: inline-block;
