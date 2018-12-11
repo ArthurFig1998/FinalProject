@@ -136,21 +136,22 @@ a {
         display: inline-block;
         position: absolute;
         z-index: 0;
-        top: -200px;
+        top: -300px;
         left: -600px;
         animation: slide-in-right 3s;
         transition: all 3s;
         transition-timing-function: ease-out; } }
 
 .participation {
-  display: grid; }
+  display: grid;
+  z-index: 100; }
   @media (min-width: 50em) {
     .participation {
       position: relative;
       grid-row: 2/3;
       grid-column: 1/2; }
       .participation::before {
-        content: url("assets/sun-planets72-02.png");
+        content: url("assets/sun-planets72-04.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: inline-block;
@@ -169,7 +170,7 @@ a {
       grid-row: 3/4;
       grid-column: 2/3; }
       .benefits::before {
-        content: url("assets/sun-planets72-04.png");
+        content: url("assets/sun-planets72-02.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: inline-block;
