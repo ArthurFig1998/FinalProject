@@ -25,3 +25,8 @@
     0%{ background-position-y: 1000px; }
     100% { background-position-y: 100px; }
 }
+
+@keyframes spin {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(360deg); }
+}
