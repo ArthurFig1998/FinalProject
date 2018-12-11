@@ -19,15 +19,10 @@
     background-position-y: 1000px; }
   100% {
     background-position-y: 100px; } }
-@keyframes spin {
-  0% {
-    transform: rotate(360deg); }
-  100% {
-    transform: rotate(360deg); } }
 body {
   margin: 0 auto;
   padding: 20px;
-  background-image: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000);
+  background-image: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000, #000000);
   font-family: "Open Sans", sans-serif;
   color: #f0f0df;
   overflow-x: hidden; }
@@ -64,22 +59,26 @@ a {
     font-weight: bolder;
     transition: 1s; }
 
-@media (min-width: 50em) {
-  .intro {
-    background-image: url("assets/sun-planets72-01.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: 100px;
-    background-position-x: center;
-    background-size: 600px;
-    animation: slide-in-up 2s ease-out;
-    transition: background-image 2s; }
-    .intro header, .intro .summary {
-      opacity: 1;
-      animation: fade-in 4s ease-out;
-      text-align: center;
-      transform: scale(1.1); } }
+.intro {
+  background-image: url("assets/sun-planets72-01.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  animation: slide-in-up 3s ease-out;
+  background-position-y: 100px;
+  transition: background-image 3s;
+  background-size: 400px; }
+  @media (min-width: 50em) {
+    .intro {
+      background-size: 600px; }
+      .intro header, .intro .summary {
+        opacity: 1;
+        animation: fade-in 4s ease-out;
+        text-align: center;
+        transform: scale(1.1); } }
 
+.summary a {
+  color: black; }
 .summary::after {
   content: '\A';
   white-space: pre; }
@@ -168,7 +167,7 @@ a {
         display: inline-block;
         position: absolute;
         top: 30px;
-        left: -600px;
+        left: -678px;
         animation: slide-in-right 3s;
         transition: all 3s;
         transition-timing-function: ease-out; } }

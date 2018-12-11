@@ -2,7 +2,7 @@
 @import '_partials';
 $break-large: 50em;
 $primary: rgb(63, 88, 102);
-$background: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000);
+$background: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000, #000000);
 $secondary: rgb(255, 176, 33);
 $tertiary: rgb(240, 240,223);
 
@@ -53,15 +53,16 @@ a {
 }
 
 .intro {
-    @include breakpoint(large) {
-            background-image: url('assets/sun-planets72-01.png');
+    background-image: url('assets/sun-planets72-01.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position-y: 100px;
             background-position-x: center;
+            animation: slide-in-up 3s ease-out;
+            background-position-y: 100px;
+            transition: background-image 3s;
+            background-size: 400px;
+    @include breakpoint(large) {
             background-size: 600px;
-            animation: slide-in-up 2s ease-out;
-            transition: background-image 2s;
         & header, & .summary {
             opacity: 1;
             animation: fade-in 4s ease-out;
@@ -70,10 +71,14 @@ a {
         }
     }
 }
-
-.summary::after {
-    content: '\A';
-    white-space: pre;
+.summary {
+    & a {
+        color: black;
+    }
+    &::after {
+        content: '\A';
+        white-space: pre;
+    }
 }
 
 .preamble {
@@ -168,7 +173,7 @@ a {
                 display: inline-block;
                 position: absolute;
                 top: 30px;
-                left: -600px;
+                left: -678px;
                 animation: slide-in-right 3s;
                 transition: all 3s;
                 transition-timing-function: ease-out;
