@@ -27,7 +27,7 @@
 body {
   margin: 0 auto;
   padding: 20px;
-  background-image: linear-gradient(to bottom, #16395C, #071827, #05111C);
+  background-image: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000);
   font-family: "Open Sans", sans-serif;
   color: #f0f0df;
   overflow-x: hidden; }
