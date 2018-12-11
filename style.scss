@@ -162,16 +162,12 @@ a {
         grid-row: 2/3;
         grid-column: 1/2;
         &::before {
-            content: url('');
+            content: url('assets/sun-planets72-02.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             display: inline-block;
             position: absolute;
-            top: 50px;
             right: -500px;
-            height: 75%;
-            width: 45%;
-            border: 1px solid;
             animation: slide-in-left 3s;
             transition: all 3s;
             transition-timing-function: ease-out;
@@ -186,16 +182,13 @@ a {
         grid-row: 3/4;
         grid-column: 2/3;
             &::before {
-                content: url('');
+                content: url('assets/sun-planets72-04.png');
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 display: inline-block;
                 position: absolute;
                 top: 30px;
                 left: -500px;
-                height: 75%;
-                width: 45%;
-                border: 1px solid;
                 animation: slide-in-right 3s;
                 transition: all 3s;
                 transition-timing-function: ease-out;
