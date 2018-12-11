@@ -72,7 +72,7 @@ a {
     background-position-y: 100px;
     background-position-x: center;
     background-size: 600px;
-    animation: slide-in-up 2s;
+    animation: slide-in-up 2s ease-out;
     transition: background-image 2s; }
     .intro header, .intro .summary {
       opacity: 1;
