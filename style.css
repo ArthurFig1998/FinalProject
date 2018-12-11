@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-image: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000, #000000);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Share Tech Mono";
   color: #f0f0df;
   overflow-x: hidden; }
   @media (min-width: 50em) {
@@ -36,7 +36,7 @@ abbr {
 h1,
 h2,
 h3 {
-  font-family: "Pacifico", cursive;
+  font-family: "Share Tech Mono";
   font-weight: 300; }
 
 header {
