@@ -62,10 +62,6 @@ a {
         transition-timing-function: ease-out;
         &::after {
             display: inline-block;
-            border: 1px solid;
-            border-radius: 40%;
-            width: 250px;
-            height: 250px;
             content: url('assets/sun-planets72-01.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
