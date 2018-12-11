@@ -37,7 +37,8 @@ abbr {
 h1,
 h2,
 h3 {
-  font-family: 'Share Tech Mono', monospace;}
+  font-family: "Pacifico", cursive;
+  font-weight: 300; }
 
 header {
   text-align: center;
@@ -63,10 +64,7 @@ a {
   .intro {
     display: grid;
     grid-template-rows: repeat(7, auto);
-    grid-template-columns: repeat(7, auto);
-    animation: slide-in-right 1s;
-    transition: all 1s;
-    transition-timing-function: ease-out; }
+    grid-template-columns: repeat(7, auto); }
     .intro::after {
       display: inline-block;
       content: url("assets/sun-planets72-01.png");
@@ -79,7 +77,8 @@ a {
       animation: spin 4s ease-out; } }
 
 .summary {
-  font-style: italic; }
+  font-style: italic;
+  z-index: 100; }
   @media (min-width: 50em) {
     .summary {
       grid-column: 1/8;
@@ -94,7 +93,8 @@ a {
       text-align: left; } }
 
 .preamble {
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+  z-index: 100; }
   @media (min-width: 50em) {
     .preamble {
       grid-column: 1/8;
@@ -107,13 +107,15 @@ a {
 .participation,
 .requirements {
   text-align: center;
-  color: #f0f0df; }
+  color: #f0f0df;
+  z-index: 100; }
 
 .preamble, .requirements {
   margin-bottom: 2em; }
 
 .main {
-  line-height: 1.8rem; }
+  line-height: 1.8rem;
+  z-index: 100; }
   @media (min-width: 50em) {
     .main {
       display: grid;
