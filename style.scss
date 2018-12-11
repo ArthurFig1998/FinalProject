@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import '_partials';
 $break-large: 50em;
-$primary: rgb(63, 88, 102);
-$background: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000, #000000);
-$secondary: rgb(255, 176, 33);
+$primary: rgb(255, 176, 33);
+$secondary: rgb(63, 88, 102);
 $tertiary: rgb(240, 240,223);
+$background: linear-gradient(to bottom, #16395C, #071827, #05111C, #000000, #000000, #000000);
 $font-family: 'Share Tech Mono';
 
 body {
@@ -44,7 +44,7 @@ header {
 }
 
 a {
-    color:$secondary;
+    color:$primary;
     text-decoration: none;
     &:hover {
         font-size: 1.5em;
@@ -74,7 +74,8 @@ a {
 }
 .summary {
     & a {
-        color: black;
+        color: $secondary;
+        font-weight: bolder;
     }
     &::after {
         content: '\A';
@@ -246,7 +247,7 @@ footer {
     }
 }
 .wrapper a{
-    color: $primary;
+    color: $secondary;
     font-weight: bolder;
 }
 

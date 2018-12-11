@@ -78,7 +78,8 @@ a {
         transform: scale(1.1); } }
 
 .summary a {
-  color: black; }
+  color: #3f5866;
+  font-weight: bolder; }
 .summary::after {
   content: '\A';
   white-space: pre; }
