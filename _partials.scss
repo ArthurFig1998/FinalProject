@@ -1,0 +1,36 @@
+@mixin breakpoint($break) {
+    @if $break==large {
+        @media (min-width: $break-large) {
+            @content;
+        }
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide-in-right {
+    0% { left: -10000px; }
+    100% { left: -500px; }
+}
+
+@keyframes slide-in-left {
+    0% { right: -10000px; }
+    100% { right: -500px; }
+}
