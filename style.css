@@ -170,9 +170,12 @@ a {
         display: inline-block;
         position: absolute;
         right: -600px;
+        -webkit-animation: slide-in-left 3s;
+        -moz-animation: slide-in-left 3s;
         animation: slide-in-left 3s;
-        transition: all 3s;
-        transition-timing-function: ease-out; } }
+        -webkit-animation: all 3s ease-out;
+        -moz-animation: all 3s ease-out;
+        transition: all 3s ease-out; } }
 
 .benefits {
   display: grid;
@@ -190,9 +193,12 @@ a {
         position: absolute;
         top: 30px;
         left: -678px;
+        -webkit-animation: slide-in-right 3s;
+        -moz-animation: slide-in-right 3s;
         animation: slide-in-right 3s;
-        transition: all 3s;
-        transition-timing-function: ease-out; } }
+        -webkit-animation: all 3s ease-out;
+        -moz-animation: all 3s ease-out;
+        transition: all 3s ease-out; } }
 
 .requirements {
   line-height: 1.8rem;
@@ -240,6 +246,8 @@ a {
         top: -100px;
         right: 0;
         overflow: hidden;
+        -webkit-transform: scale(0.65);
+        -moz-transform: scale(0.65);
         transform: scale(0.65); } }
 
 .wrapper a {
