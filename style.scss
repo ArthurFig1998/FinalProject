@@ -144,11 +144,11 @@ a {
                 position: absolute;
                 z-index: 0;
                 left: -678px;
-                -webkit-animation: slide-in-right 3s;
-                -moz-animation: slide-in-right 3s;
+                //-webkit-animation: slide-in-right 3s;
+                //-moz-animation: slide-in-right 3s;
                 animation: slide-in-right 3s;
-                -webkit-transition: all 3s ease-out;
-                -moz-transition: all 3s ease-out;
+                //-webkit-transition: all 3s ease-out;
+                //-moz-transition: all 3s ease-out;
                 transition: all 3s ease-out;
             }
     }
@@ -175,11 +175,11 @@ a {
             display: inline-block;
             position: absolute;
             right: -600px;
-            -webkit-animation: slide-in-left 3s;
-            -moz-animation: slide-in-left 3s;
+            //-webkit-animation: slide-in-left 3s;
+            //-moz-animation: slide-in-left 3s;
             animation: slide-in-left 3s;
-            -webkit-animation: all 3s ease-out;
-            -moz-animation: all 3s ease-out;
+            //-webkit-animation: all 3s ease-out;
+            //-moz-animation: all 3s ease-out;
             transition: all 3s ease-out;
         }
     }
@@ -200,11 +200,11 @@ a {
                 position: absolute;
                 top: 30px;
                 left: -678px;
-                -webkit-animation: slide-in-right 3s;
-                -moz-animation: slide-in-right 3s;
+                //-webkit-animation: slide-in-right 3s;
+                //-moz-animation: slide-in-right 3s;
                 animation: slide-in-right 3s;
-                -webkit-animation: all 3s ease-out;
-                -moz-animation: all 3s ease-out;
+                //-webkit-animation: all 3s ease-out;
+                //-moz-animation: all 3s ease-out;
                 transition: all 3s ease-out;
             }
     }
